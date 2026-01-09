@@ -1,0 +1,47 @@
+{
+  "name": "vibecode-app",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest",
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "expo": "~52.0.0",
+    "expo-router": "~4.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "zustand": "^4.4.7",
+    "axios": "^1.6.5",
+    "react-native-paper": "^5.12.3",
+    "@supabase/supabase-js": "^2.39.3",
+    "react-native-url-polyfill": "^2.0.0",
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "react-native-mmkv": "^2.11.0",
+    "socket.io-client": "^4.6.1",
+    "react-native-syntax-highlighter": "^2.1.0",
+    "prism-react-renderer": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@types/react": "~18.3.12",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "eslint-config-expo": "^7.0.0",
+    "jest": "^29.7.0",
+    "@testing-library/react-native": "^12.4.3"
+  },
+  "private": true
+}
